@@ -1,18 +1,6 @@
-import { defineConfig } from 'astro/config';
-import tailwind from "@astrojs/tailwind";
-import react from "@astrojs/react";
-import netlify from '@astrojs/netlify';
+import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  integrations: [tailwind(), react()],
-  output: 'server',
-  adapter: netlify(),
-  vite: {
-    ssr: {
-      noExternal: ['agora-rtc-sdk-ng']
-    },
-    optimizeDeps: {
-      include: ['agora-rtc-sdk-ng']
-    }
-  }
-});
+  site: 'https://ganatejadragneel.github.io',
+  base: '/videocall',
+})
