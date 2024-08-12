@@ -17,6 +17,7 @@
     "@types/react-dom": "^18.2.6",
     "agora-react-uikit": "^1.2.0",
     "agora-rtc-react": "2.0.0-alpha.0",
+    "agora-rtc-sdk-ng": "^4.21.0",
     "astro": "^3.0.1",
     "node": "^20.5.1",
     "react": "^18.2.0",
